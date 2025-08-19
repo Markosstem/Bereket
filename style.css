@@ -1,0 +1,130 @@
+/* ---------- BASIC RESET ---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: red;
+    color: blueviolet;
+}
+
+/* ---------- HEADER ---------- */
+header {
+    background: #0057b7; /* Blue color */
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 12px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: #003d82;
+    border-radius: 5px;
+}
+
+.btn-register {
+    background: #ffcc00;
+    color: #333 !important;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-weight: bold;
+}
+
+.btn-register:hover {
+    background: #e6b800;
+}
+
+/* ---------- HERO SECTION ---------- */
+.hero {
+    background: linear-gradient(rgba(0, 87, 183, 0.7), rgba(0, 87, 183, 0.7)), url('school.jpg') center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #e6b800;
+}
+
+/* ---------- NEWS SECTION ---------- */
+.news {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.news h2 {
+    text-align: center;
+    color: #0057b7;
+    margin-bottom: 20px;
+}
+
+.news article {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.news article h3 {
+    color: #333;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+    background: #003d82;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
